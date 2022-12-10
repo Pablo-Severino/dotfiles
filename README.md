@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fuas.edu.kw%2Fwp-content%2Fuploads%2F2018%2F12%2Ffolder-icon.png&f=1&nofb=1&ipt=d46988ac4df1272c9477880b5a5d6695f364a7939d1409f240f52829504906cf&ipo=images" width="52px" heidht="52px">
+  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fuas.edu.kw%2Fwp-content%2Fuploads%2F2018%2F12%2Ffolder-icon.png&f=1&nofb=1&ipt=d46988ac4df1272c9477880b5a5d6695f364a7939d1409f240f52829504906cf&ipo=images" width="140px" heidht="140px">
   <h2>My dotfiles</h2>
   <p>My settings for programs I use in my development environment.</p>
 </div>
