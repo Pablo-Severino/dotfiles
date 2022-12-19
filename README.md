@@ -9,6 +9,7 @@
       wsl --list --online && wsl --install -d Ubuntu-20.04
       
     ### Oh My Zsh
+      sudo nano /etc/sudoers
       <username>    ALL=(ALL:ALL) NOPASSWD:ALL
       sudo apt update -y && sudo apt upgrade -y
       sudo apt install zsh -y
