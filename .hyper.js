@@ -27,6 +27,8 @@ module.exports = {
         cursorShape: 'BLOCK',
         // set to `true` (without backticks and without quotes) for blinking cursor
         cursorBlink: false,
+        // determines the size of your window
+        windowSize: [137, 32],
         // color of the text
         foregroundColor: '#fff',
         // terminal background color
