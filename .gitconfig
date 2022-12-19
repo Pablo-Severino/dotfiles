@@ -1,8 +1,6 @@
 [user]
 	name = Pablo Severino
 	email = 77620695+Pablo-Severino@users.noreply.github.com
-[core]
-	editor = \"C:\\Users\\Evandro\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
