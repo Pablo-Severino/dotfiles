@@ -24,6 +24,10 @@
     ### NVM
       curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
       source ~/.bashrc
+      
+    ### Yarnpkg
+      sudo apt update && sudo apt install --no-install-recommends yarn
+      yarn init -2
 
     ### Spaceship
       git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
