@@ -1,36 +1,204 @@
 {
-    "workbench.startupEditor": "none",
-    "workbench.colorTheme": "Omni",
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.fontSize": 14,
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-    "files.autoSave": "afterDelay",
-    "powermode.enabled": true,
-    "terminal.integrated.profiles.windows": {
-        "PowerShell": {
-            "source": "PowerShell",
-            "icon": "terminal-powershell"
-        },
-        "Command Prompt": {
-            "path": [
-                "${env:windir}\\Sysnative\\cmd.exe",
-                "${env:windir}\\System32\\cmd.exe"
-            ],
-            "args": [],
-            "icon": "terminal-cmd"
-        },
-        "Git Bash": {
-            "source": "Git Bash"
-        },
-        "Ubuntu-20.04 (WSL)": {
-            "path": "C:\\WINDOWS\\System32\\wsl.exe",
-            "args": [
-                "-d",
-                "Ubuntu-20.04"
-            ]
-        }
+  // VSCode
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "window.newWindowDimensions": "maximized",
+  "vscode-pets.theme": "forest",
+
+  // Security
+  "security.workspace.trust.untrustedFiles": "open",
+
+  // Explorer
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  // Workbench
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Rosé Pine",
+  "workbench.iconTheme": "symbols",
+  "workbench.tree.indent": 20,
+  "workbench.productIconTheme": "fluent-icons",
+
+  // Files
+  "files.associations": {
+    ".prettierrc.json": "jsonc"
+  },
+  "files.exclude": {
+    "**/node_modules": false,
+    "**/.next": false
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.autoSave": "afterDelay",
+
+  // Editor
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorWidth": 2,
+  "editor.find.cursorMoveOnType": false,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.wordWrap": "on",
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.parameterHints.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  // Prisma
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma",
+    "editor.formatOnSave": true
+  },
+
+  // Power Mode
+  "powermode.enabled": true,
+  "powermode.shake.enabled": false,
+
+  // Terminal
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
     },
-    "terminal.integrated.defaultProfile.windows": "Ubuntu-20.04 (WSL)",
-    "security.workspace.trust.untrustedFiles": "open",
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu-20.04 (WSL)": {
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu-20.04"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+
+  // Extensions
+  "extensions.autoCheckUpdates": true,
+
+  // Material Icon Theme
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.folders.color": "#90a4ae",
+
+  // Emmet
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact",
+    "javascriptreact": "javascriptreact",
+    "mardkown": "html"
+  },
+
+  // Tabnine
+  "tabnine.experimentalAutoImports": true,
+
+  // Yaml
+  "yaml.schemas": {
+    "file:///c%3A/Users/Evandro/.vscode/extensions/atlassian.atlascode-3.0.0/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+
+  // Redhat
+  "redhat.telemetry.enabled": true,
+
+  // Git & GitHub
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": false,
+    "javascript": true,
+    "python": true,
+    "javascriptreact": true
+  },
+
+  // Eslint
+  "eslint.validate": ["javascript", "typescriptreact", "javascriptreact"],
+
+  // Languages
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[typescript]": {
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[javascriptreact]": {
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[typescriptreact]": {
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+
+  // Tailwind
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "javascript"
+  },
+
+  // HTML CSS Class Completion
+  "html-css-class-completion.enableEmmetSupport": true,
+
+  // Discord Presence
+  "discord.detailsIdling": "👀 Procurando nos Arquivos...",
+  "discord.detailsEditing": "☕ {file_name} com {file_size}",
+  "discord.largeImageIdling": "⏲️ Código, Café e Pomodoro",
+  "discord.lowerDetailsDebugging": "🐛 Debugging: {git_branch}",
+  "discord.lowerDetailsEditing": "📦 Projeto: {workspace}",
+  "discord.lowerDetailsIdling": "☕ Hora do café",
+  "discord.lowerDetailsNoWorkspaceFound": "{file_size}",
+
+  // Google Translate
+  "vscodeGoogleTranslate.preferredLanguage": "English",
+
+  // Material Icon Theme
+  "material-icon-theme.folders.associations": {
+    "jest": "test"
+  },
+
+  "npm.keybindingsChangedWarningShown": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "envKeys",
+        "scope": "string.quoted.single.ini,constant.numeric.ini,string.quoted.double.ini",
+        "settings": {
+          "foreground": "#19354900"
+        }
+      }
+    ]
+  }
 }
