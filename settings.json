@@ -88,7 +88,7 @@
       "args": ["-d", "Ubuntu-20.04"]
     }
   },
-  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
 
   // Extensions
   "extensions.autoCheckUpdates": true,
@@ -108,9 +108,9 @@
   // Tabnine
   "tabnine.experimentalAutoImports": true,
 
-  // Yaml
+  // BitBucket
   "yaml.schemas": {
-    "file:///c%3A/Users/Evandro/.vscode/extensions/atlassian.atlascode-3.0.0/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    "file:///c%3A/Users/Evandro/.vscode/extensions/atlassian.atlascode-3.0.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
 
   // Redhat
@@ -119,15 +119,6 @@
   // Git & GitHub
   "git.autofetch": true,
   "git.enableSmartCommit": true,
-  "github.copilot.enable": {
-    "*": true,
-    "yaml": false,
-    "plaintext": true,
-    "markdown": false,
-    "javascript": true,
-    "python": true,
-    "javascriptreact": true
-  },
 
   // Eslint
   "eslint.validate": ["javascript", "typescriptreact", "javascriptreact"],
