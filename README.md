@@ -6,7 +6,8 @@
 
 ```sh
     ### Download Ubuntu
-      wsl --list --online && wsl --install -d Ubuntu-20.04
+      wsl --list --online
+      wsl --install -d Ubuntu-20.04
       
     ### Oh My Zsh
       sudo nano /etc/sudoers
