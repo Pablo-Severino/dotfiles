@@ -8,9 +8,9 @@ module.exports = {
         // or `'canary'` for less polished but more frequent updates
         updateChannel: 'stable',
         // default font size in pixels for all tabs
-        fontSize: 12,
+        fontSize: 13,
         // font family with optional fallbacks
-        fontFamily: 'Fira Code',
+        fontFamily: 'JetBrains Mono',
         // default font weight: 'normal' or 'bold'
         fontWeight: 'normal',
         // font weight for bold characters: 'normal' or 'bold'
