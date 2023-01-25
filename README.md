@@ -26,6 +26,9 @@
       curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
       source ~/.bashrc
       
+    ### Nodejs
+      nvm install <versão do nodejs>
+      
     ### Yarnpkg
       sudo apt update && sudo apt install --no-install-recommends yarn
       yarn init -2
