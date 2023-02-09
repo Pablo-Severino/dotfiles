@@ -47,7 +47,7 @@
       git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
       git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
       git clone https://github.com/krve/hyper-mac-controls.git
-      git clone https://github.com/getomni/hyper.git
+      git clone https://github.com/Sakai-Theme/hyper.git
       sudo apt install fasd -y
 
 ```
