@@ -41,7 +41,7 @@ module.exports = {
         // custom CSS to embed in the terminal window
         termCSS: '',
         // set custom startup directory (must be an absolute path)
-        workingDirectory: 'E:\\Programming\\Projetos',
+        workingDirectory: 'E:\\Programming',
         // if you're using a Linux setup which show native menus, set to false
         // default: `true` on Linux, `true` on Windows, ignored on macOS
         showHamburgerMenu: '',
@@ -144,7 +144,7 @@ module.exports = {
     // in development, you can create a directory under
     // `~/.hyper_plugins/local/` and include it here
     // to load it and avoid it being `npm install`ed
-    localPlugins: ['hyper-mac-controls', 'hyper-omni-theme'],
+    localPlugins: ['hyper-mac-controls', 'hyper-sakai-theme'],
     keymaps: {
         "window:devtools": "f12",
         "window:reload": "ctrl+r",
