@@ -14,7 +14,7 @@
 
   // Workbench
   "workbench.startupEditor": "none",
-  "workbench.colorTheme": "Rosé Pine",
+  "workbench.colorTheme": "Sakai Theme",
   "workbench.iconTheme": "symbols",
   "workbench.tree.indent": 20,
   "workbench.productIconTheme": "fluent-icons",
@@ -110,7 +110,7 @@
 
   // BitBucket
   "yaml.schemas": {
-    "file:///c%3A/Users/Evandro/.vscode/extensions/atlassian.atlascode-3.0.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    "file:///c%3A/Users/Evandro/.vscode/extensions/atlassian.atlascode-3.0.7/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
 
   // Redhat
@@ -191,5 +191,6 @@
         }
       }
     ]
-  }
+  },
+  "symbols.hidesExplorerArrows": false
 }
