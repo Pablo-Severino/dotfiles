@@ -14,8 +14,8 @@
 
   // Workbench
   "workbench.startupEditor": "none",
-  "workbench.colorTheme": "Sakai Theme",
-  "workbench.iconTheme": "symbols",
+  "workbench.colorTheme": "Sakai Theme Jupiter",
+  "workbench.iconTheme": "sakai-icons",
   "workbench.tree.indent": 20,
   "workbench.productIconTheme": "fluent-icons",
 
@@ -39,7 +39,7 @@
   "editor.cursorBlinking": "smooth",
   "editor.cursorWidth": 2,
   "editor.find.cursorMoveOnType": false,
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.stickyScroll.enabled": true,
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
@@ -51,7 +51,7 @@
   "editor.parameterHints.enabled": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
 
   // Prisma
@@ -110,7 +110,7 @@
 
   // BitBucket
   "yaml.schemas": {
-    "file:///c%3A/Users/Evandro/.vscode/extensions/atlassian.atlascode-3.0.7/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    "file:///c%3A/Users/Master%20User/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
 
   // Redhat
@@ -192,5 +192,7 @@
       }
     ]
   },
-  "symbols.hidesExplorerArrows": false
+  "symbols.hidesExplorerArrows": false,
+  "sakai-icons.hidesExplorerArrows": false,
+  "terminal.integrated.env.windows": {}
 }
