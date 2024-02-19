@@ -15,7 +15,7 @@
   // Workbench
   "workbench.startupEditor": "none",
   "workbench.colorTheme": "Sakai Theme Jupiter",
-  "workbench.iconTheme": "sakai-icons",
+  "workbench.iconTheme": "sakai",
   "workbench.tree.indent": 20,
   "workbench.productIconTheme": "fluent-icons",
 
